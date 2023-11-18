@@ -1,0 +1,108 @@
+.container-rm, .header-rm{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+}
+
+.header-rm{
+    background-color: #44464A;
+}
+
+.container-id, .header-id{
+    width: 20vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container-id p, .container-duration p, .container-result p{
+    text-align: start;
+    margin: 0;
+}
+
+.container-result h4{
+    margin-right: 30px;
+}
+
+.container-oppTeam h4{
+    margin-left: 10px;
+}
+
+#match-id{
+    color: #66BBFF;
+}
+
+#logo-oppTeam{
+    width: 60px;
+    margin-right: 10px;
+}
+
+.container-oppTeam{
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-duration{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#losses{
+    color: #FF4C4C;
+}
+
+#wins{
+    color: #66BB6A;
+}
+
+.container-rm:last-child{
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-rm p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .container-rm p{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container-oppTeam{
+        width: 15vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #logo-oppTeam{
+        margin-right: 0;
+    }
+
+    h4{
+        font-size: 12px;
+    }
+    .container-result h4{
+        margin-right: 0;
+    }
+    
+    .container-oppTeam h4{
+        margin-left: 0;
+    }
+
+    .header-id{
+        width: 15vw;
+    }
+}

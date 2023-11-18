@@ -1,0 +1,86 @@
+/* Register.css */
+
+.register-page {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.register-page h2 {
+  text-align: center;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-page h3 {
+  text-align: center;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-page .error-message {
+  color: #d9534f;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.register-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-page label {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.register-page input {
+  width: 93%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.register-page button {
+  background-color: #008080;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-page button:hover {
+  background-color: #008080;
+}
+
+/* Optional: Style for the login link */
+.register-page p {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+  font-size: 14px;
+}
+
+.register-page p a {
+  color: #008080;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-page p a:hover {
+  text-decoration: underline;
+}
